@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family:  'Franklin Gothic Medium';
+    
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-image: url(R.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    size: 2rem;
+}
+ul li {
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 0.5rem;
+    border: 0.2rem solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+background-color: black;
+
+}
+ul li.active a{
+
+background-color: black;
+}
+.logo img{
+  
+    margin-top: 1rem;
+    float: left;
+    width: 15rem;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 5rem;
+    display: inline-block;
+}
+.slogan{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: burlywood;
+
+    
+}
+.slogan h3{
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+.text{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+}
+.text h2{
+    font-family: cursive;
+}
+.text1{
+    position: absolute;
+    top: 130%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 1.2rem;
+    background-color: black;
+}

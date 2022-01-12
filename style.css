@@ -9,7 +9,7 @@ html{
 }
 header{
     background-image: url(R.jpg);
-    height:100vh;
+    height:120vh;
     background-size: cover;
     background-position: center;
 }
@@ -89,6 +89,6 @@ background-color: black;
     left: 13%;
     transform: translate(-50%,-50%);
     color: aqua;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: black;
 }
